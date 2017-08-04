@@ -43,8 +43,6 @@ var fs = require('fs');
 log.info('fs...', new Date().getTime() - startTime);//test
 var express = require('express');
 log.info('express...', new Date().getTime() - startTime);//test
-
-//var app = require('express').createServer();
 var port = app_params.port;
 var path = require('path');
 log.info('path...', new Date().getTime() - startTime);//test
@@ -52,16 +50,14 @@ var bodyParser = require('body-parser');
 log.info('body-parser...', new Date().getTime() - startTime);//test
 
 var app = express();
-var server = require('http').Server(app);
 log.info('http...', new Date().getTime() - startTime);//test
-var io = require('socket.io')(server);
-log.info('socket.io...', new Date().getTime() - startTime);//test
+
 
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 app.use(bodyParser.text());
 app.use('/', express.static('public'));
-var database = require('./datamodel/dataBase');
+var database = require('./dataBase');
 log.info('./dataBase...', new Date().getTime() - startTime);//test
 var ConfigurationError, DBConnectError;
 
@@ -269,7 +265,7 @@ app.get("/p_invoice/get_pinv_products", function (req, res) {                   
         {"data": "UM", "name": "Ед.изм.", "width": 60, "type": "text", readOnly:true},
         {"data": "Article1", "name": "Артикул", "width": 80, "type": "text", readOnly:true, visible:false},
         {"data": "PriceCC_wt", "name": "Цена", "width": 90, "type": "numeric", format:"#,###,###,##0.00[#######]", language:"ru-RU", readOnly:true},
-        {"data": "Qty", "name": "Кол-во", "width": 90, "type": "numeric", format:"#,###,###,##0.00[#######]", language:"ru-RU", readOnly:true},
+        {"data": "Qty", "name": "Кол-во", "width": 90, "type": "numeric", format:"#,###,###,##0.[#########]", language:"ru-RU", readOnly:true},
         {"data": "SumCC_wt", "name": "Сумма", "width": 90, "type": "numeric", format:"#,###,###,##0.00[#######]", language:"ru-RU", readOnly:true},
         {"data": "Notes", "name": "Примечание", "width": 300, "type": "text", readOnly:true},
         {"data": "Extra", "name": "Наценка", "width": 60, "type": "numeric", format:"#,###,###,##0", language:"ru-RU", readOnly:true},
@@ -311,14 +307,14 @@ app.get("/print/product_tag_40x25.html", function (req, res) {                  
 //
 //});
 
-server.listen(
+app.listen(
     port, function (err) {
     if(err){
         console.log("listen port err= ", err);
         return;
     }
-    console.log("server runs on port " + port);
-    log.info("server runs on port " + port, new Date().getTime() - startTime);
+    console.log("app runs on port " + port);
+    log.info("app runs on port " + port, new Date().getTime() - startTime);
 });
 
 log.info("end app", new Date().getTime() - startTime);

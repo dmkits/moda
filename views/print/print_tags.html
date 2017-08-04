@@ -106,7 +106,7 @@
                     var tagsData= prodTagsContentData, pageNum=0;
                     for(var i=0; i<tagsData.length; i++){
                         var tagData = tagsData[i];
-                        var qty = 1; //tagData["Qty"];
+                        var qty = tagData["Qty"];
                         for(var num=1; num<=qty; num++){
                             var tagPageID="print_TagContentPage_"+i+"_"+num;
                             var tagPage = document.createElement("DIV");

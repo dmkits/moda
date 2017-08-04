@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <body><div style="display:none" id="prodTagFirstChild"></div>
-    <div style="border:none; margin-left:0cm;margin-top:0.1cm; width:3.6cm;height:1.1cm; font-size:10px;  text-align:center" id="prodName"></div>
-    <div style="border:none; margin-left:0cm;margin-top:0cm; width:3.6cm;height:0.4cm; font-size:10px; text-align:center" id="prodPrice"></div>
+    <div style="border:none; margin-left:0cm;margin-top:0.1cm; width:3.6cm;height:0.7cm; font-size:11px;  text-align:center" id="prodName"></div>
+    <div style="border:none; margin-left:0cm;margin-top:0cm; width:3.6cm;height:0.4cm; font-size:11px; text-align:center" id="prodPrice"></div>
     <!--<div style="border:none;margin-left:0cm;margin-top:0cm; padding:0;width:3.6cm;height:0.45cm;">-->
         <!--<div style="display:inline-block;float:left;border:none; margin-left:0.6cm;margin-top:0cm; width:2.4cm;height:0.6cm; font-size:10px; text-align:center" id="prodPrice"></div>-->
         <!--<div style="display:inline-block;float:right; margin:0cm;margin-top:0.3cm; width:0.5cm;height:0.35cm; font-size:9px; text-align:left" id="pageNum" class="pageNum"></div>-->
     <!--</div>-->
-    <svg style="margin-left:0.3cm;border:none;padding:0;" id="prodbarcode"></svg>
+    <svg style="margin-left:0.1cm;border:none;padding:0;" id="prodbarcode"></svg>
     <!--<div style="float:right; margin:0cm;margin-top:0.1cm; width:0.5cm;height:0.35cm; font-size:9px; text-align:left" id="pageNum" class="pageNum"></div>-->
     <span style="margin:0cm;margin-top:0.1cm; width:0.5cm;height:0.35cm; font-size:9px; text-align:left" id="pageNum" class="pageNum"></span>
 </body>
@@ -15,7 +15,7 @@
 <script type="text/javascript">
     var printProdTag = function(barcodeElementID, barcodeValue){
         if(!barcodeValue) return;
-        JsBarcode("#"+barcodeElementID, barcodeValue,{format:"EAN13", width:1, height:16, valueIsValid:true, margin:3,
+        JsBarcode("#"+barcodeElementID, barcodeValue,{format:"EAN13", width:1, height:16, valueIsValid:true, margin:0,
             valid:function(valid){
                 if(!valid) this.valueIsValid = false;
                 if(!this.valueIsValid){

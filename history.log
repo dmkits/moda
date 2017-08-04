@@ -440,3 +440,65 @@
 {"level":"info","message":"URL: /sysadmin","timestamp":"2017-06-14T04:05:01.193Z"}
 {"level":"info","message":"URL: /sysadmin/app_state","timestamp":"2017-06-14T04:05:02.984Z"}
 {"level":"info","message":"URL: /sysadmin/startup_parameters","timestamp":"2017-06-14T04:05:03.889Z"}
+{"level":"info","message":"fs... 75","timestamp":"2017-08-04T11:34:11.519Z"}
+{"level":"info","message":"express... 213","timestamp":"2017-08-04T11:34:11.655Z"}
+{"level":"info","message":"path... 214","timestamp":"2017-08-04T11:34:11.655Z"}
+{"level":"info","message":"body-parser... 217","timestamp":"2017-08-04T11:34:11.658Z"}
+{"level":"info","message":"http... 220","timestamp":"2017-08-04T11:34:11.661Z"}
+{"level":"info","message":"socket.io... 350","timestamp":"2017-08-04T11:34:11.791Z"}
+{"level":"info","message":"./dataBase... 390","timestamp":"2017-08-04T11:34:11.831Z"}
+{"level":"info","message":"tryLoadConfiguration... 390","timestamp":"2017-08-04T11:34:11.831Z"}
+{"level":"info","message":"tryDBConnect... 391","timestamp":"2017-08-04T11:34:11.832Z"}
+{"level":"info","message":"end app 545","timestamp":"2017-08-04T11:34:11.986Z"}
+{"level":"info","message":"server runs on port 8080 549","timestamp":"2017-08-04T11:34:11.990Z"}
+{"level":"info","message":"tryDBConnect DBConnectError=","timestamp":"2017-08-04T11:34:12.025Z"}
+{"level":"info","message":"fs... 94","timestamp":"2017-08-04T11:36:25.510Z"}
+{"level":"info","message":"express... 261","timestamp":"2017-08-04T11:36:25.675Z"}
+{"level":"info","message":"path... 262","timestamp":"2017-08-04T11:36:25.675Z"}
+{"level":"info","message":"body-parser... 266","timestamp":"2017-08-04T11:36:25.679Z"}
+{"level":"info","message":"http... 271","timestamp":"2017-08-04T11:36:25.684Z"}
+{"level":"info","message":"socket.io... 419","timestamp":"2017-08-04T11:36:25.832Z"}
+{"level":"info","message":"./dataBase... 480","timestamp":"2017-08-04T11:36:25.894Z"}
+{"level":"info","message":"tryLoadConfiguration... 481","timestamp":"2017-08-04T11:36:25.894Z"}
+{"level":"info","message":"tryDBConnect... 482","timestamp":"2017-08-04T11:36:25.895Z"}
+{"level":"info","message":"end app 625","timestamp":"2017-08-04T11:36:26.038Z"}
+{"level":"info","message":"server runs on port 8080 629","timestamp":"2017-08-04T11:36:26.042Z"}
+{"level":"info","message":"tryDBConnect DBConnectError=","timestamp":"2017-08-04T11:36:26.079Z"}
+{"level":"info","message":"fs... 80","timestamp":"2017-08-04T11:36:37.277Z"}
+{"level":"info","message":"express... 219","timestamp":"2017-08-04T11:36:37.413Z"}
+{"level":"info","message":"path... 220","timestamp":"2017-08-04T11:36:37.414Z"}
+{"level":"info","message":"body-parser... 223","timestamp":"2017-08-04T11:36:37.417Z"}
+{"level":"info","message":"http... 226","timestamp":"2017-08-04T11:36:37.420Z"}
+{"level":"info","message":"socket.io... 356","timestamp":"2017-08-04T11:36:37.550Z"}
+{"level":"info","message":"./dataBase... 413","timestamp":"2017-08-04T11:36:37.607Z"}
+{"level":"info","message":"tryLoadConfiguration... 413","timestamp":"2017-08-04T11:36:37.607Z"}
+{"level":"info","message":"tryDBConnect... 414","timestamp":"2017-08-04T11:36:37.608Z"}
+{"level":"info","message":"end app 561","timestamp":"2017-08-04T11:36:37.755Z"}
+{"level":"info","message":"server runs on port 8080 566","timestamp":"2017-08-04T11:36:37.760Z"}
+{"level":"info","message":"tryDBConnect DBConnectError=","timestamp":"2017-08-04T11:36:37.802Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-08-04T11:36:40.870Z"}
+{"level":"info","message":"URL: /main/get_data","timestamp":"2017-08-04T11:36:41.542Z"}
+{"level":"info","message":"URL: /mainOpenPage/p_invoice","timestamp":"2017-08-04T11:36:41.601Z"}
+{"level":"info","message":"/print/product_tag_40x25.html","timestamp":"2017-08-04T11:36:42.671Z"}
+{"level":"info","message":"/print/product_tag_40x25.html","timestamp":"2017-08-04T11:36:44.030Z"}
+{"level":"info","message":"/print/product_tag_40x25.html","timestamp":"2017-08-04T11:36:44.410Z"}
+{"level":"info","message":"/print/print_tags","timestamp":"2017-08-04T11:36:47.077Z"}
+{"level":"info","message":"/print/product_tag_40x25.html","timestamp":"2017-08-04T11:36:47.303Z"}
+{"level":"info","message":"fs... 92","timestamp":"2017-08-04T11:51:11.692Z"}
+{"level":"info","message":"express... 262","timestamp":"2017-08-04T11:51:11.860Z"}
+{"level":"info","message":"path... 264","timestamp":"2017-08-04T11:51:11.861Z"}
+{"level":"info","message":"body-parser... 268","timestamp":"2017-08-04T11:51:11.865Z"}
+{"level":"info","message":"http... 271","timestamp":"2017-08-04T11:51:11.868Z"}
+{"level":"info","message":"socket.io... 433","timestamp":"2017-08-04T11:51:12.031Z"}
+{"level":"info","message":"./dataBase... 474","timestamp":"2017-08-04T11:51:12.071Z"}
+{"level":"info","message":"tryLoadConfiguration... 474","timestamp":"2017-08-04T11:51:12.071Z"}
+{"level":"info","message":"tryDBConnect... 475","timestamp":"2017-08-04T11:51:12.072Z"}
+{"level":"info","message":"end app 607","timestamp":"2017-08-04T11:51:12.204Z"}
+{"level":"info","message":"server runs on port 8080 611","timestamp":"2017-08-04T11:51:12.208Z"}
+{"level":"info","message":"tryDBConnect DBConnectError=","timestamp":"2017-08-04T11:51:12.246Z"}
+{"level":"info","message":"URL: /","timestamp":"2017-08-04T11:51:21.651Z"}
+{"level":"info","message":"URL: /main/get_data","timestamp":"2017-08-04T11:51:22.316Z"}
+{"level":"info","message":"URL: /mainOpenPage/p_invoice","timestamp":"2017-08-04T11:51:22.373Z"}
+{"level":"info","message":"/print/product_tag_40x25.html","timestamp":"2017-08-04T11:51:23.587Z"}
+{"level":"info","message":"/print/print_tags","timestamp":"2017-08-04T11:51:25.418Z"}
+{"level":"info","message":"/print/product_tag_40x25.html","timestamp":"2017-08-04T11:51:25.759Z"}
